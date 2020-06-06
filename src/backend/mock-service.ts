@@ -1,4 +1,4 @@
-import { IAnimal } from '@app/model/animal';
+import { IAnimal } from 'model/animal.model';
 
 const COWS_KEY = "cows";
 const SHEEPS_KEY = "sheeps";

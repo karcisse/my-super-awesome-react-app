@@ -1,3 +1,7 @@
+html, body, #root, #root>div {
+  height: 100%
+}
+
 .App {
   text-align: center;
 }
@@ -14,6 +18,12 @@
 }
 
 .App-header {
+  position:absolute; 
+  top:0px; 
+  left:0px;
+  height:60px; 
+  right:0px;
+  overflow:hidden;
   background-color: #282c34;
   display: flex;
   flex-direction: row;
@@ -22,6 +32,37 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.App-footer {
+  position:absolute;
+  bottom:0px;
+  height:40px;
+  left:0px;
+  right:0px;
+  overflow:hidden;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.App-content {
+  position:absolute;
+  top:60px;
+  bottom:30px;
+  left:0px;
+  right:0px;
+  overflow:auto;
+  overflow-x: hidden;
+}
+
+span.clear { clear: left; display: block; }
 
 .App-link {
   color: #61dafb;

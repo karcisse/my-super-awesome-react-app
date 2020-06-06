@@ -1,0 +1,30 @@
+.joke-card {
+    min-width: 500px;
+    max-width: 500px;
+    font-size: x-large;
+    padding: 5% 7% 5% 7%;
+}
+
+.joke-card > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.joke-card > .joke {
+    min-height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.alert-success.copied-text {
+    transition: opacity 0.5s;
+    opacity: 1;
+}
+
+.alert-success.copied-text.hide {
+    opacity: 0;
+    transition: opacity 0.5s;
+    pointer-events:none;
+}

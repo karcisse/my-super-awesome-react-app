@@ -1,0 +1,17 @@
+.meme-card {
+    display: inline-block;
+    background-color: gray;
+    margin-bottom: 20px;
+    padding: 10px 30px 20px 30px;
+    border-radius: 30px;
+}
+
+.meme-card > p {
+    color: white;
+    font-size: large;
+    text-align: left;
+}
+
+.meme-img {
+    max-width: 500px;
+}
